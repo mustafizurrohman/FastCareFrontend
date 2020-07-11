@@ -20,6 +20,11 @@
       {
         "name": "@angular/language-service"
       }
-    ]
+    ],
+    "paths": {
+      "jszip": [
+        "node_modules/jszip/dist/jszip.min.js"
+      ]
+    }
   }
 }
