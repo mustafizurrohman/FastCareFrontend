@@ -32,7 +32,18 @@
               "node_modules/devextreme/dist/css/dx.common.css",
               "node_modules/devextreme/dist/css/dx.light.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "devextreme/core/dom_adapter",
+              "devextreme/core/renderer",
+              "devextreme/core/http_request",
+              "devextreme/ui/validation_summary",
+              "devextreme/ui/popup",
+              "devextreme/ui/popover",
+              "devextreme/ui/load_panel",
+              "devextreme/ui/draggable",
+              "devextreme/ui/button_group"
+            ]
           },
           "configurations": {
             "production": {
@@ -125,6 +136,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "FastCareFrontend"
 }

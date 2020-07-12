@@ -1,29 +1,33 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import {
-  DxAccordionModule, DxActionSheetModule, DxAutocompleteModule, DxBarGaugeModule,
-  DxBoxModule, DxBulletModule, DxButtonModule, DxButtonGroupModule, DxCalendarModule,
-  DxChartModule, DxCheckBoxModule, DxCircularGaugeModule, DxColorBoxModule,
-  DxContextMenuModule, DxDataGridModule, DxDateBoxModule, DxDeferRenderingModule,
-  DxDiagramModule, DxDraggableModule, DxDrawerModule, DxDropDownBoxModule,
-  DxFileManagerModule, DxFileUploaderModule, DxFilterBuilderModule, DxFormModule,
-  DxFunnelModule, DxGalleryModule, DxGanttModule, DxHtmlEditorModule,
-  DxLinearGaugeModule, DxListModule, DxLoadIndicatorModule, DxLoadPanelModule,
-  DxLookupModule, DxMapModule, DxMenuModule, DxMultiViewModule, DxNavBarModule,
-  DxNumberBoxModule, DxPieChartModule, DxPivotGridModule, DxPivotGridFieldChooserModule,
-  DxPolarChartModule, DxPopoverModule, DxProgressBarModule, DxRadioGroupModule,
-  DxRangeSelectorModule, DxRangeSliderModule, DxResizableModule, DxResponsiveBoxModule,
-  DxSankeyModule, DxSchedulerModule, DxScrollViewModule, DxSelectBoxModule, DxSlideOutModule,
-  DxSlideOutViewModule, DxSliderModule, DxSortableModule, DxSparklineModule, DxSpeedDialActionModule,
-  DxSwitchModule, DxTabPanelModule, DxTabsModule, DxTagBoxModule, DxTextAreaModule, DxTextBoxModule,
-  DxTileViewModule, DxToastModule, DxToolbarModule, DxTooltipModule, DxTreeListModule, DxTreeMapModule,
-  DxTreeViewModule, DxValidationGroupModule, DxValidationSummaryModule, DxValidatorModule, DxVectorMapModule
+  DxAccordionModule,      DxActionSheetModule, DxAutocompleteModule,  DxBarGaugeModule,
+  DxBoxModule,            DxBulletModule,      DxButtonModule,        DxButtonGroupModule, 
+  DxCalendarModule,       DxChartModule,       DxCheckBoxModule,      DxCircularGaugeModule, 
+  DxColorBoxModule,       DxContextMenuModule, DxDataGridModule,      DxDateBoxModule, 
+  DxDeferRenderingModule, DxDiagramModule,     DxDraggableModule,     DxDrawerModule, 
+  DxDropDownBoxModule,    DxFileManagerModule, DxFileUploaderModule,  DxFilterBuilderModule, 
+  DxFormModule,           DxFunnelModule,      DxGalleryModule,       DxGanttModule, 
+  DxHtmlEditorModule,     DxLinearGaugeModule, DxListModule,          DxLoadIndicatorModule, 
+  DxLoadPanelModule,      DxLookupModule,      DxMapModule,           DxMenuModule, 
+  DxMultiViewModule,      DxNavBarModule,      DxNumberBoxModule,     DxPieChartModule, 
+  DxPivotGridModule,      DxPolarChartModule,  DxPopoverModule,       DxPivotGridFieldChooserModule,
+  DxProgressBarModule,    DxRadioGroupModule,  DxRangeSelectorModule, DxRangeSliderModule, 
+  DxResizableModule,      DxSankeyModule,      DxSchedulerModule,     DxResponsiveBoxModule,
+  DxScrollViewModule,     DxSelectBoxModule,   DxSlideOutModule,      DxSlideOutViewModule, 
+  DxSliderModule,         DxSortableModule,    DxSparklineModule,     DxSpeedDialActionModule,
+  DxSwitchModule,         DxTabPanelModule,    DxTabsModule,          DxTagBoxModule, 
+  DxTextAreaModule,       DxTextBoxModule,     DxTileViewModule,      DxToastModule, 
+  DxToolbarModule,        DxTooltipModule,     DxTreeListModule,      DxTreeMapModule,
+  DxTreeViewModule,       DxValidatorModule,   DxVectorMapModule,     DxValidationGroupModule, 
+  DxValidationSummaryModule, 
 } from 'devextreme-angular';
 
 
-
 @NgModule({
-  declarations: [],
+  declarations: [    
+  ],
   imports: [
     CommonModule,
     DxAccordionModule,
