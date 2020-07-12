@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataserviceService } from './../../common/services/dataservice.service';
+import { Dropdown } from 'src/app/common/models/dropdown';
 
 @Component({
   selector: 'app-dashboard-home',
@@ -8,12 +9,16 @@ import { DataserviceService } from './../../common/services/dataservice.service'
 })
 export class DashboardHomeComponent implements OnInit {
 
+  hospitals: Dropdown[] = [];
+
   constructor(private _dataService: DataserviceService) { }
 
   ngOnInit(): void {
 
-    this._dataService.GetDoctors().subscribe(console.log);
-    this._dataService.GetDoctorsBySpeciality(8).subscribe(console.log);
+    this._dataService.GetHospitals()
+      .subscribe((hos: Dropdown[]) => {
+        this.hospitals = hos;
+      });
 
   }
 
